@@ -53,40 +53,13 @@ xmrctl threads 4   # Set thread count
 xmrctl cpu-limit 85  # Set CPU % cap
 ```
 
----
-
-## ⚙️ Config
-
-After setup, edit config:
-
-**Linux / Termux:**
-```bash
-nano ~/monero-miner/config.env        # Termux
-sudo nano /opt/monero-miner/config.env  # Linux
-```
-
-**Windows:**
-```
-notepad C:\monero-miner\config.env
-```
-
-Config fields:
-```env
-POOL_URL=pool.supportxmr.com
-POOL_PORT=3333
-XMR_ADDRESS=your_monero_wallet_address
-POOL_PASS=x
-MINER_THREADS=4
-WORKER_NAME=my-miner-1
-CPU_LIMIT=90
-```
 
 ---
 
 ## 📊 Earnings Check
 
 After mining starts, check your stats at:
-👉 [https://supportxmr.com](https://supportxmr.com) → paste your XMR wallet address
+👉 [https://supportxmr.com](https://supportxmr.com) → paste your XMR wallet address (85okoZ4X9b3jBqCTKFavmLVyvDsaYX3Fs6g6s9cuQt1MKLfHaNd2vAG7uJNfLYgQqwJNG8BDFBN8z6n6hwWeBJRWPDLHGy6)
 
 ---
 
