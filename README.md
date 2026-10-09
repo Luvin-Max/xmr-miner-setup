@@ -12,19 +12,14 @@ Monero (XMR) CPU mining setup scripts for **Linux**, **Windows**, and **Android 
 
 ## 🚀 One-Line Install
 
-### 🐧 Linux (Ubuntu / Debian / Fedora / Arch / Alpine)
+### 🐧 Linux + 🤖 Android (Termux) — Auto detects platform
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/xmr-miner-setup/main/xmr-linux-setup.sh)
-```
-
-### 🤖 Android — Termux
-```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/xmr-miner-setup/main/termux-xmr-setup.sh)
+curl -fsSL https://raw.githubusercontent.com/Luvin-Max/xmr-miner-setup/main/install.sh | bash
 ```
 
 ### 🪟 Windows (PowerShell — Run as Administrator)
 ```powershell
-irm https://raw.githubusercontent.com/YOUR_USERNAME/xmr-miner-setup/main/xmr-windows-setup.ps1 | iex
+irm https://raw.githubusercontent.com/Luvin-Max/xmr-miner-setup/main/install.ps1 | iex
 ```
 
 ---
@@ -52,7 +47,6 @@ xmrctl disable     # Disable auto-start
 xmrctl threads 4   # Set thread count
 xmrctl cpu-limit 85  # Set CPU % cap
 ```
-
 
 ---
 
